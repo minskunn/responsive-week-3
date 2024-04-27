@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  display: block;
 }
 
 h1,
@@ -15,7 +16,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
@@ -42,7 +43,7 @@ p {
   margin: 20px;
 }
 
-.primary-link {
+.contact-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -52,7 +53,7 @@ p {
   color: white;
 }
 
-.secondary-link {
+.about-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -61,6 +62,15 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
